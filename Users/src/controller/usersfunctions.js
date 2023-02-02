@@ -315,7 +315,7 @@ try{
     
     // console.log(link)
     
-    await sendEmail(user.email,"Password reset", link,);
+    await sendEmail(user.email,"Password reset", link);
 
     res.send("password reset link sent to your email account");
 }catch(error){
